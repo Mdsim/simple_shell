@@ -42,7 +42,7 @@ int _isalpha(int c)
 
 /**
 * _atoi - this converts a string to an integer
-* @s: the string to be converted
+* @s: the string to be convert
 * Return: returns 0 or converted number
 */
 

@@ -2,8 +2,8 @@
 
 /**
 * *_strncpy - this copies a string
-* @dest: the destination string to be copied to
-* @src: the source string
+* @dest: the destination string to be copied to the
+* @src: the source strings
 * @n: the amount of characters to be copied
 * Return: returns the concatenated string
 */
