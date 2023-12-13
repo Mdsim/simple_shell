@@ -1,4 +1,6 @@
-Simple Shell Project(0x16-Simple_Shell Project).
+0x16. C - Simple Shell
+
+Simple Shell Project.
 
 A shell is a command-line interface that acts as an intermediary between a user and an operating system.
 It's primary function is to interpret and execute user command.
