@@ -49,7 +49,7 @@ typedef struct liststr
 	int num;
 	char *str;
 	struct liststr *next;
-}list_t;
+} list_t;
 
 /**
 *struct passinfo - This contains pseudo-arguements to pass into a function,
@@ -229,10 +229,9 @@ list_t *node_starts_with(list_t *, char *, char);
 ssize_t get_node_index(list_t *, list_t *);
 
 /* vars.c */
-int is_chain(info_t *, char *, size_t *);
-void check_chain(info_t *, char *, size_t *, size_t, size_t);
-int replace_alias(info_t *);
-int replace_vars(info_t *);
-int replace_string(char **, char *);
-
+int is_chain(info_t *info, char *buf, size_t *p)
+void check_chain(info_t *info, char *buf, size_t *p, size_t i, size_t len);
+int replace_alias(info_t *info);
+int replace_vars(info_t *info);
+int replace_string(char **old, char *new);
 #endif
